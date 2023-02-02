@@ -2,17 +2,25 @@
   "nodes": [
     {
       "id": "A",
-      "label": "Node A",
-      "x": 0,
-      "y": 0,
+      "label": "Rectangles",
       "size": 2,
       "color": "#64B5F6"
     },
     {
     "id": "B",
-      "label": "Node B",
-      "x": 0,
-      "y": 5,
+      "label": "Disk",
+      "size": 2,
+      "color": "#64B5F6"
+    },
+    {
+    "id": "C",
+      "label": "Cylinder",
+      "size": 2,
+      "color": "#64B5F6"
+    },
+    {
+    "id": "D",
+      "label": "Circle",
       "size": 2,
       "color": "#64B5F6"
     }
@@ -22,6 +30,16 @@
       "id": "E1",
       "source": "A",
       "target": "B"
+    },
+    {
+      "id": "E2",
+      "source": "B",
+      "target": "C"
+    },
+    {
+      "id": "E3",
+      "source": "C",
+      "target": "D"
     }
   ]
 }
