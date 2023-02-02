@@ -4,42 +4,53 @@
       "id": "A",
       "label": "Rectangles",
       "size": 2,
-      "color": "#64B5F6"
+      "color": "#50C819",
+      "type": "diamond",
+      "storage": "35mb"
     },
     {
-    "id": "B",
+      "id": "B",
       "label": "Disk",
       "size": 2,
-      "color": "#64B5F6"
+      "image": {
+        "url": "./Icons/DiskIcon.png"
+      }
     },
     {
-    "id": "C",
+      "id": "C",
       "label": "Cylinder",
       "size": 2,
-      "color": "#64B5F6"
+      "color": "#1C0084",
+      "type": "diamond"
     },
     {
-    "id": "D",
+      "id": "D",
       "label": "Circle",
       "size": 2,
-      "color": "#64B5F6"
+      "color": "#9E1922",
+      "type": "square"
     }
   ],
   "edges": [
     {
       "id": "E1",
       "source": "A",
-      "target": "B"
+      "target": "B",
+      "color":"000000",
+      "type": "arrow"
     },
     {
       "id": "E2",
       "source": "B",
-      "target": "C"
+      "target": "C",
+      "color":"000000",
+      "type": "dotted"
     },
     {
       "id": "E3",
       "source": "C",
-      "target": "D"
+      "target": "D",
+      "color":"000000"
     }
   ]
 }
